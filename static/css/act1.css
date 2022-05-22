@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div::-webkit-scrollbar {
+    width: 3vw;
+}
+div::-webkit-scrollbar-thumb {
+    background-color: rgb(46, 46, 46);
+    border-radius: 100vw;
+}
+div::-webkit-scrollbar-track {
+    background-color: rgb(10, 10, 10);
+    border-radius: 100vw;
+}
+div::-webkit-scrollbar-track:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+header {
+    padding-top: 8%;
+    padding-left: 7%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bolder;
+} 
+
+body {
+    background-color: rgb(7, 0, 23);
+    font-family:'Montserrat', sans-serif;
+    width: 100%; 
+    height: 100%;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+ .modalImage {
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 60%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;
+    margin: 4% 6% auto 6%;
+    padding-bottom: 2%; 
+    overflow-x: auto; 
+}
+.imgGallery {
+    max-width: 100%;
+}
+.slide {
+    margin: auto;
+    display: inline-block;  
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.slide:hover {
+    opacity: 0.7;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+img {
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 33%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 50%;
+    }
+}
