@@ -16,26 +16,25 @@ body {
 	justify-content: center;
 }
 .info {
-	margin-top: 4vh;
+	margin-top: 3vh;
 }
 .titles {
 	text-align: center;
-	margin-bottom: 5%;
 }
 .titles > h1 {
 	font-family: 'Bebas Neue', cursive;
-	font-size: 9ch;
+	font-size: 5vw;
 }
 .titles > h2 {
 	font-family: 'Manrope', sans-serif;
-	font-size: 6ch;
+	font-size: 3vw;
 	font-weight: bolder;
 }
 p {
-	font-size: 2ch;
+	font-size: 1.1vw;
 }
 .about {
-	font-size: 1.5ch;
+	font-size: 1vw;
 	margin-top: 2em;
 }
 .wrapper{

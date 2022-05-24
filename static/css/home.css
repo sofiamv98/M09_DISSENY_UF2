@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
     max-height: 100vh;
 }
 
@@ -58,7 +60,7 @@ li:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: auto 2% auto 1rem;
+    padding-right: 3%;
     background: linear-gradient(40deg, rgba(209,184,107,1) 0%, rgba(255,111,145,1) 49%, rgba(132,94,194,1) 100%);
     height: 10vh;
     color: white;
@@ -73,7 +75,56 @@ li:hover {
     height: 80vh;
     background-color: white;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
+}
+
+.title {
+    font-size: 1.7vw;
+    background: linear-gradient(40deg, rgba(209,184,107,1) 0%, rgba(255,111,145,1) 30%, rgba(132,94,194,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    background-size: 8vw 12vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15%;
+    color: black;
+    transition: transform .2s;
+    width: 20vw;
+    height: 35vh;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.card_content {
+    margin-top: 5%;
+}
+#act1 {
+    background-image: url(../img/homepage/image_icon.png);
+    background-color: rgba(209,184,107,1);
+}
+
+#act2 {
+    background-image: url(../img/homepage/music_icon.png);
+    background-color: rgba(255,111,145,1);
+}
+
+#act3 {
+    background-image: url(../img/homepage/video_icon.png);
+    background-color: rgb(175, 69, 176)
+}
+
+#act4 {
+    background-image: url(../img/homepage/space_icon.png);
+    background-color: rgba(132,94,194,1)
 }
 
 /* https://codepen.io/steveeeie/pen/NVWMEM */
