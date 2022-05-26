@@ -15,14 +15,14 @@
     background-color: black;
   }
   
-  /* Add some content at the bottom of the video/page */
+  
   .content {
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
+    padding: 3%;
     font-family: 'Red Hat Display', sans-serif;
   }
   .content > h1 {
@@ -31,10 +31,11 @@
   p {
       font-size: 2ch;
   }
-  /* Style the button used to pause/play the video */
+
   #myBtn {
     width: 200px;
     font-size: 18px;
+    margin-top:1%;
     padding: 10px;
     border: none;
     background: #000;
