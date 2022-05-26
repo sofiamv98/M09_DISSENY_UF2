@@ -25,67 +25,67 @@ const music_list = [
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Unperson',
         artist : 'Nothing But Thieves',
-        music : '/songs/Unperson.mp3'
+        music : '../static/songs/Unperson.mp3'
     },
     {
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Is Everybody Going Crazy?',
         artist : 'Nothing But Thieves',
-        music : '/songs/going_crazy.mp3'
+        music : '../static/songs/going_crazy.mp3'
     },
     {
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Moral Panic',
         artist : 'Nothing But Thieves',
-        music : '/songs/moral_panic.mp3'
+        music : '../static/songs/moral_panic.mp3'
     },
     {
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Real Love Song',
         artist : 'Nothing But Thieves',
-        music : '/songs/real_love_song.mp3'
+        music : '../static/songs/real_love_song.mp3'
     },
 	{
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Phobia',
         artist : 'Nothing But Thieves',
-        music : '/songs/phobia.mp3'
+        music : '../static/songs/phobia.mp3'
     },
 	{
         img : '../static/img/act2/moral_panic.jpg',
         name : 'This Feels Like the End',
         artist : 'Nothing But Thieves',
-        music : '/songs/feels_end.mp3'
+        music : '../static/songs/feels_end.mp3'
     },
 	{
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Free If We Want It',
         artist : 'Nothing But Thieves',
-        music : '/songs/free_if.mp3'
+        music : '../static/songs/free_if.mp3'
     },
 	{
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Impossible',
         artist : 'Nothing But Thieves',
-        music : '/songs/impossible.mp3'
+        music : '../static/songs/impossible.mp3'
     },
 	{
         img : '../static/img/act2/moral_panic.jpg',
         name : 'There Was Sun',
         artist : 'Nothing But Thieves',
-        music : '/songs/there_was_sun.mp3'
+        music : '../static/songs/there_was_sun.mp3'
     },
 	{
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Can You Afford to Be An Individual?',
         artist : 'Nothing But Thieves',
-        music : '/songs/individual.mp3'
+        music : '../static/songs/individual.mp3'
     },
 	{
         img : '../static/img/act2/moral_panic.jpg',
         name : 'Before We Drift Away',
         artist : 'Nothing But Thieves',
-        music : '/songs/drift_away.mp3'
+        music : '../static/songs/drift_away.mp3'
     }
 ];
 
